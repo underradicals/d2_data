@@ -2,7 +2,7 @@
 
 ## Breakdown
 
-- [ ] [Download Manifest from Destiny Server](#download-manifest-from-destiny-server)
+- [x] [Download Manifest from Destiny Server](#download-manifest-from-destiny-server)
 - [ ] [Extract English MobileJsonContentPaths Url](#extract-english-mobilejsoncontentpaths-url)
 - [ ] [Extract English JsonWorldComponentContentPaths Dictionary](#extract-english-jsonworldcomponentcontentpaths-dictionary)
     - [ ] Download All Json Files (Later this will be only the files we will need)
@@ -33,7 +33,11 @@
 ### `Download Manifest from Destiny Server`
 
 - [ ] Download Manifest from Destiny Server
-- [ ] Write Manifest to Disk
+- [ ] If the file does NOT exist write Manifest to Disk as `manifest.json`
+    - [ ] Format Json Output
+- [ ] If file DOES exist, check if the file is older than 7 days
+    - [ ] If YES: then download manifest and write to disk
+    - [ ] If NO: Then do nothing, the file does not need to be updated
     - [ ] Format Json Output
 
 ### `Extract English MobileJsonContentPaths Url`
