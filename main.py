@@ -1,4 +1,4 @@
-﻿from features import get_manifest
+﻿from features import get_manifest, get_jwccp_files
 
 
 def main():
@@ -6,6 +6,7 @@ def main():
 
     create_dirs()
     manifest = get_manifest()
+    get_jwccp_files(manifest)
 
 
 if __name__ == "__main__":
