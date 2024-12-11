@@ -1,6 +1,11 @@
 # Environments
 .idea/
+
 settings.json
+
+data/world_components_paths/
+data/assets/
+data/weapons/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
