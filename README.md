@@ -3,9 +3,9 @@
 ## Breakdown
 
 - [x] [Download Manifest from Destiny Server](#download-manifest-from-destiny-server)
-- [ ] [Extract English MobileJsonContentPaths Url](#extract-english-mobilejsoncontentpaths-url)
-- [ ] [Extract English JsonWorldComponentContentPaths Dictionary](#extract-english-jsonworldcomponentcontentpaths-dictionary)
-    - [ ] Download All Json Files (Later this will be only the files we will need)
+- [x] [Extract English MobileJsonContentPaths Url](#extract-english-mobilejsoncontentpaths-url)
+- [x] [Extract English JsonWorldComponentContentPaths Dictionary](#extract-english-jsonworldcomponentcontentpaths-dictionary)
+    - [x] Download All Json Files (Later this will be only the files we will need)
 - [ ] [Factor Available Data](#factor-available-data)
     - [ ] [Damage Type Definitions](#damage-type-definitions) (Persist Globally Image Urls, filepaths)
     - [ ] Lore Definitions
