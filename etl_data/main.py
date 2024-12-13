@@ -24,6 +24,16 @@ def write_all_files():
         executor.map(write_data, file_store)
 
 
+def insert_image_urls():
+    sql_string = """INSERT INTO image_urls(name, url, type) VALUES\n"""
+    for index, item in enumerate(sql_image_store):
+        if index == len(sql_image_store) - 1:
+            sql_string = sql_string + f"{item};"
+        else:
+            sql_string = sql_string + f"{item},\n"
+    connection.execute(sql_string)
+
+
 def main():
     from d2_data_paths import create_dirs
 
@@ -37,17 +47,12 @@ def main():
         handle_data_definitions()
         handle_lore_definitions()
         write_all_files()
+        insert_image_urls()
     else:
         handle_data_definitions()
         handle_lore_definitions()
         write_all_files()
-        sql_string = """INSERT INTO image_urls(name, url, type) VALUES\n"""
-        for index, item in enumerate(sql_image_store):
-            if index == len(sql_image_store) - 1:
-                sql_string = sql_string + f"{item};"
-            else:
-                sql_string = sql_string + f"{item},\n"
-        connection.execute(sql_string)
+        insert_image_urls()
 
 
 if __name__ == "__main__":
