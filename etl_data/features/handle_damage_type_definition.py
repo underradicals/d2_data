@@ -26,11 +26,9 @@ def transform(filename: str, *transformers: Callable[[dict, dict], None]) -> Non
         key, value = tup
         if value["icon"] is not None:
             sql_image_store.append(
-                f'({value['hash']},"{value['icon']}", "DAMAGE_TYPE"),\n'
+                f'({value['hash']},"{value['icon']}", "DAMAGE_TYPE")'
             )
-    file_store.append(data_dict)
-    # print(json.dumps(file_store, indent=4))
-    # print(json.dumps(sql_image_store, indent=4))
+    file_store.append(("damage_definitions.json", data_dict))
 
 
 def handle_data_definitions():

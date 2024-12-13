@@ -1,4 +1,12 @@
-﻿CREATE TABLE IF NOT EXISTS damage_types
+﻿DROP TABLE IF EXISTS damage_types;
+DROP TABLE IF EXISTS lore_definitions;
+DROP TABLE IF EXISTS stat_definitions;
+DROP TABLE IF EXISTS plug_set_definitions;
+DROP TABLE IF EXISTS socket_category_definitions;
+DROP TABLE IF EXISTS collectible_definitions;
+DROP TABLE IF EXISTS image_urls;
+
+CREATE TABLE IF NOT EXISTS damage_types
 (
     id          INTEGER,
     name        TEXT NOT NULL,
