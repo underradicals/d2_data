@@ -6,6 +6,9 @@ settings.json
 *.sqlite3
 *.sqlite
 
+*.db-shm
+*.db-wal
+
 data/world_components_paths/
 data/assets/
 data/weapons/
