@@ -7,7 +7,7 @@
 - [x] [Extract English JsonWorldComponentContentPaths Dictionary](#extract-english-jsonworldcomponentcontentpaths-dictionary)
     - [x] Download All Json Files (Later this will be only the files we will need)
 - [ ] [Factor Available Data](#factor-available-data)
-    - [ ] [Damage Type Definitions](#damage-type-definitions) (Persist Globally Image Urls, filepaths)
+    - [x] [Damage Type Definitions](#damage-type-definitions) (Persist Globally Image Urls, filepaths)
     - [ ] Lore Definitions
     - [ ] Stat Definitions
     - [ ] PlugSet Definitions
