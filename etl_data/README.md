@@ -32,13 +32,13 @@
 
 ### `Download Manifest from Destiny Server`
 
-- [ ] Download Manifest from Destiny Server
-- [ ] If the file does NOT exist write Manifest to Disk as `manifest.json`
-    - [ ] Format Json Output
-- [ ] If file DOES exist, check if the file is older than 7 days
-    - [ ] If YES: then download manifest and write to disk
-    - [ ] If NO: Then do nothing, the file does not need to be updated
-    - [ ] Format Json Output
+- [x] Download Manifest from Destiny Server
+- [x] If the file does NOT exist write Manifest to Disk as `manifest.json`
+    - [x] Format Json Output
+- [x] If file DOES exist, check if the file is older than 7 days
+    - [x] If YES: then download manifest and write to disk
+    - [x] If NO: Then do nothing, the file does not need to be updated
+    - [x] Format Json Output
 
 ### `Extract English MobileJsonContentPaths Url`
 
@@ -55,22 +55,30 @@
 
 ### `Extract English JsonWorldComponentContentPaths Dictionary`
 
-- [ ] Read `manifest.json` from disk
-- [ ] Transform string to dictionary
-- [ ] Return dictionary to local scope
-- [ ] Extract `Response.jsonWorldComponentContentPaths.en` (this will be of type dict)
-- [ ] Break up dictionary:
-    - [ ] Get keys (partial filenames) as one iterable `<partial_filenames>`
-    - [ ] Get values (partial urls) as another iterable `<partial_urls>`
-- [ ] Use ThreadPoolExecutor
-    - [ ] Download content from each url in parallel
-        - [ ] The filename will be prepended with `Directory.WORLD_COMPONENT_PATHS / {filename}.json`
-        - [ ] The url will be prepended with `https://www.bungie.net{url}`
-        - [ ] The function will have signature `(filename: str | Path, url: str) -> None:` So use the iterables from
+- [x] Read `manifest.json` from disk
+- [x] Transform string to dictionary
+- [x] Return dictionary to local scope
+- [x] Extract `Response.jsonWorldComponentContentPaths.en` (this will be of type dict)
+- [x] Break up dictionary:
+    - [x] Get keys (partial filenames) as one iterable `<partial_filenames>`
+    - [x] Get values (partial urls) as another iterable `<partial_urls>`
+- [x] Use ThreadPoolExecutor
+    - [x] Download content from each url in parallel
+        - [x] The filename will be prepended with `Directory.WORLD_COMPONENT_PATHS / {filename}.json`
+        - [x] The url will be prepended with `https://www.bungie.net{url}`
+        - [x] The function will have signature `(filename: str | Path, url: str) -> None:` So use the iterables from
           above , `<partial_filenames>` and `<partial_urls>` respectively.
-    - [ ] Write each file to disk at the predefined location e.g. `Directory.WORLD_COMPONENT_PATHS`
+    - [x] Write each file to disk at the predefined location e.g. `Directory.WORLD_COMPONENT_PATHS`
 
 ## Factor Available Data
 
 ### `Damage Type Definitions`
 
+- [ ] Read DamageTypeDefinition from disk
+- [ ] Transform into dictionary
+- [ ] Iterate over dictionary:
+    - [ ] Destructure into `key, value`
+    - [ ] Apply each set of transformations to each `value`
+- [ ] For each value:
+    - [ ] Append icon url to a global list formatted like so: `f'({value['hash']},"{value['icon']}", "DAMAGE_TYPE"),\n'`
+    - [ ] Append final shape of transformation to a list as well
