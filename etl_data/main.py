@@ -8,6 +8,7 @@ from features import (
     get_jwccp_files,
     handle_data_definitions,
     handle_lore_definitions,
+    handle_stat_definitions,
 )
 from store import file_store, sql_image_store
 
@@ -51,6 +52,7 @@ def main():
     else:
         handle_data_definitions()
         handle_lore_definitions()
+        handle_stat_definitions()
         write_all_files()
         insert_image_urls()
 

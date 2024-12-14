@@ -1,0 +1,428 @@
+{
+    "1885944937": {
+        "name": "",
+        "icon": null,
+        "description": "",
+        "hash": 1885944937
+    },
+    "1935470627": {
+        "name": "Power",
+        "icon": "/common/destiny2_content/icons/d5bea0d356792af8ca0a582fae89b87f.png",
+        "description": "Raising your Power increases the damage your abilities deal against higher-level combatants.",
+        "hash": 1935470627
+    },
+    "3897883278": {
+        "name": "Defense",
+        "icon": null,
+        "description": "Reduces incoming damage from your enemies.",
+        "hash": 3897883278
+    },
+    "2996146975": {
+        "name": "Mobility",
+        "icon": "/common/destiny2_content/icons/e26e0e93a9daf4fdd21bf64eb9246340.png",
+        "description": "Increases your movement speed and maximum jump height.",
+        "hash": 2996146975
+    },
+    "392767087": {
+        "name": "Resilience",
+        "icon": "/common/destiny2_content/icons/202ecc1c6febeb6b97dafc856e863140.png",
+        "description": "Increases the amount of damage you can take before dying and increases your shield capacity. Reduces the damage taken from combatants.\n\nReduces the amount of damage you take when breaking out of Stasis.",
+        "hash": 392767087
+    },
+    "1943323491": {
+        "name": "Recovery",
+        "icon": "/common/destiny2_content/icons/128eee4ee7fc127851ab32eac6ca91cf.png",
+        "description": "Increases the speed at which you regain lost health.",
+        "hash": 1943323491
+    },
+    "1735777505": {
+        "name": "Discipline",
+        "icon": "/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png",
+        "description": "Discipline decreases the cooldown time of your grenades, allowing you to use them more often.",
+        "hash": 1735777505
+    },
+    "144602215": {
+        "name": "Intellect",
+        "icon": "/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png",
+        "description": "Intellect decreases the cooldown of your Super ability, allowing you to use it more often.",
+        "hash": 144602215
+    },
+    "4244567218": {
+        "name": "Strength",
+        "icon": "/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png",
+        "description": "Strength decreases the cooldown time of your melee ability, allowing you to use it more often.",
+        "hash": 4244567218
+    },
+    "3784226438": {
+        "name": "",
+        "icon": null,
+        "description": "",
+        "hash": 3784226438
+    },
+    "360359141": {
+        "name": "Durability",
+        "icon": null,
+        "description": "Higher Durability allows your vehicle to take more damage before failing.",
+        "hash": 360359141
+    },
+    "1501155019": {
+        "name": "Speed",
+        "icon": null,
+        "description": "How fast this vehicle travels over land.",
+        "hash": 1501155019
+    },
+    "3017642079": {
+        "name": "Boost",
+        "icon": null,
+        "description": "How much speed can be gained from boosting.",
+        "hash": 3017642079
+    },
+    "1480404414": {
+        "name": "Attack",
+        "icon": null,
+        "description": "Higher Attack allows your weapons to damage higher-level opponents.",
+        "hash": 1480404414
+    },
+    "4284893193": {
+        "name": "Rounds Per Minute",
+        "icon": null,
+        "description": "The number of shots per minute this weapon can fire.",
+        "hash": 4284893193
+    },
+    "4043523819": {
+        "name": "Impact",
+        "icon": null,
+        "description": "Increases the damage inflicted by each round.",
+        "hash": 4043523819
+    },
+    "1240592695": {
+        "name": "Range",
+        "icon": null,
+        "description": "Increases the effective range of this weapon.",
+        "hash": 1240592695
+    },
+    "1591432999": {
+        "name": "Accuracy",
+        "icon": null,
+        "description": "How well shots fired by this weapon hit their target.",
+        "hash": 1591432999
+    },
+    "2961396640": {
+        "name": "Charge Time",
+        "icon": null,
+        "description": "The time in milliseconds before a weapon fires.",
+        "hash": 2961396640
+    },
+    "3022301683": {
+        "name": "Charge Rate",
+        "icon": null,
+        "description": "How fast this weapon recharges its energy.",
+        "hash": 3022301683
+    },
+    "2523465841": {
+        "name": "Velocity",
+        "icon": null,
+        "description": "Increases the speed of projectiles fired by this weapon.",
+        "hash": 2523465841
+    },
+    "3614673599": {
+        "name": "Blast Radius",
+        "icon": null,
+        "description": "Increases the explosion radius of this weapon.",
+        "hash": 3614673599
+    },
+    "155624089": {
+        "name": "Stability",
+        "icon": null,
+        "description": "How much or little recoil you will experience while firing the weapon.",
+        "hash": 155624089
+    },
+    "3597844532": {
+        "name": "Precision Damage",
+        "icon": null,
+        "description": "Damage when striking a target's weak points.",
+        "hash": 3597844532
+    },
+    "3871231066": {
+        "name": "Magazine",
+        "icon": null,
+        "description": "The number of shots which can be fired before reloading.",
+        "hash": 3871231066
+    },
+    "1931675084": {
+        "name": "Inventory Size",
+        "icon": null,
+        "description": "How much ammo a player can hold in reserve.",
+        "hash": 1931675084
+    },
+    "943549884": {
+        "name": "Handling",
+        "icon": null,
+        "description": "The speed with which the weapon can be readied and aimed.",
+        "hash": 943549884
+    },
+    "4188031367": {
+        "name": "Reload Speed",
+        "icon": null,
+        "description": "The time it takes to reload this weapon.",
+        "hash": 4188031367
+    },
+    "3988418950": {
+        "name": "Time to Aim Down Sights",
+        "icon": null,
+        "description": "Speed while aiming down the sights.",
+        "hash": 3988418950
+    },
+    "3907551967": {
+        "name": "Move Speed",
+        "icon": null,
+        "description": "Speed while carrying the weapon.",
+        "hash": 3907551967
+    },
+    "1345609583": {
+        "name": "Aim Assistance",
+        "icon": null,
+        "description": "The weapon's ability to augment your aim.",
+        "hash": 1345609583
+    },
+    "2715839340": {
+        "name": "Recoil Direction",
+        "icon": null,
+        "description": "The weapon's tendency to move while firing.",
+        "hash": 2715839340
+    },
+    "3555269338": {
+        "name": "Zoom",
+        "icon": null,
+        "description": "How much the weapon's scope can zoom in on targets.",
+        "hash": 3555269338
+    },
+    "3291498656": {
+        "name": "",
+        "icon": null,
+        "description": "",
+        "hash": 3291498656
+    },
+    "3291498659": {
+        "name": "",
+        "icon": null,
+        "description": "",
+        "hash": 3291498659
+    },
+    "3291498658": {
+        "name": "",
+        "icon": null,
+        "description": "",
+        "hash": 3291498658
+    },
+    "3291498661": {
+        "name": "",
+        "icon": null,
+        "description": "",
+        "hash": 3291498661
+    },
+    "2837207746": {
+        "name": "Swing Speed",
+        "icon": null,
+        "description": "The speed at which you can launch attacks.",
+        "hash": 2837207746
+    },
+    "209426660": {
+        "name": "Guard Resistance",
+        "icon": null,
+        "description": "Damage reduction while guarding with this weapon against most attacks.",
+        "hash": 209426660
+    },
+    "2762071195": {
+        "name": "Guard Efficiency",
+        "icon": null,
+        "description": "Reduces the amount of energy required to guard an attack.",
+        "hash": 2762071195
+    },
+    "925767036": {
+        "name": "Ammo Capacity",
+        "icon": null,
+        "description": "How many powerful attacks this weapon can launch before ammo is depleted",
+        "hash": 925767036
+    },
+    "3736848092": {
+        "name": "Guard Endurance",
+        "icon": null,
+        "description": "How long you can maintain your guard with this weapon.",
+        "hash": 3736848092
+    },
+    "1842278586": {
+        "name": "Shield Duration",
+        "icon": null,
+        "description": "How long this weapon's shield can be raised.",
+        "hash": 1842278586
+    },
+    "2714457168": {
+        "name": "Airborne Effectiveness",
+        "icon": null,
+        "description": "How accurate and stable this weapon is while airborne.",
+        "hash": 2714457168
+    },
+    "3409715177": {
+        "name": "",
+        "icon": null,
+        "description": "",
+        "hash": 3409715177
+    },
+    "953546184": {
+        "name": "",
+        "icon": null,
+        "description": "",
+        "hash": 953546184
+    },
+    "2299076437": {
+        "name": "",
+        "icon": null,
+        "description": "",
+        "hash": 2299076437
+    },
+    "3123546339": {
+        "name": "",
+        "icon": null,
+        "description": "",
+        "hash": 3123546339
+    },
+    "2733264856": {
+        "name": "Score Multiplier",
+        "icon": null,
+        "description": "Amount by which the current handicap is increasing score values.",
+        "hash": 2733264856
+    },
+    "2341766298": {
+        "name": "Handicap",
+        "icon": null,
+        "description": "Handicap",
+        "hash": 2341766298
+    },
+    "447667954": {
+        "name": "Draw Time",
+        "icon": null,
+        "description": "The time in milliseconds it takes to draw an arrow. Release an arrow when fully drawn for maximum damage and speed.",
+        "hash": 447667954
+    },
+    "1546607977": {
+        "name": "Heroic Resistance",
+        "icon": null,
+        "description": "Provides additional damage resistance while your Super is active.",
+        "hash": 1546607977
+    },
+    "1546607978": {
+        "name": "Arc Damage Resistance",
+        "icon": null,
+        "description": "Reduces all incoming damage while your Super is active. Reduces incoming Arc damage from combatants.",
+        "hash": 1546607978
+    },
+    "1546607979": {
+        "name": "Solar Damage Resistance",
+        "icon": null,
+        "description": "Reduces all incoming damage while your Super is active. Reduces incoming Solar damage from combatants.",
+        "hash": 1546607979
+    },
+    "1546607980": {
+        "name": "Void Damage Resistance",
+        "icon": null,
+        "description": "Reduces all incoming damage while your Super is active. Reduces incoming Void damage from combatants.",
+        "hash": 1546607980
+    },
+    "3625423501": {
+        "name": "Armor Energy Capacity",
+        "icon": "/common/destiny2_content/icons/435daeef2fc277af6476f2ffb9b18bcb.png",
+        "description": "This armor can accept armor mods up to a total cost equal to or below its energy capacity.",
+        "hash": 3625423501
+    },
+    "2018193158": {
+        "name": "Armor Energy Capacity",
+        "icon": "/common/destiny2_content/icons/435daeef2fc277af6476f2ffb9b18bcb.png",
+        "description": "This armor can accept armor mods up to a total cost equal to or below its energy capacity.",
+        "hash": 2018193158
+    },
+    "16120457": {
+        "name": "Armor Energy Capacity",
+        "icon": "/common/destiny2_content/icons/435daeef2fc277af6476f2ffb9b18bcb.png",
+        "description": "This armor can accept armor mods up to a total cost equal to or below its energy capacity.",
+        "hash": 16120457
+    },
+    "3950461274": {
+        "name": "Armor Energy Capacity",
+        "icon": "/common/destiny2_content/icons/435daeef2fc277af6476f2ffb9b18bcb.png",
+        "description": "This armor can accept armor mods up to a total cost equal to or below its energy capacity.",
+        "hash": 3950461274
+    },
+    "2441327376": {
+        "name": "Armor Energy Capacity",
+        "icon": "/common/destiny2_content/icons/435daeef2fc277af6476f2ffb9b18bcb.png",
+        "description": "This armor can accept armor mods up to a total cost equal to or below its energy capacity.",
+        "hash": 2441327376
+    },
+    "2223994109": {
+        "name": "Aspect Energy Capacity",
+        "icon": "/common/destiny2_content/icons/435daeef2fc277af6476f2ffb9b18bcb.png",
+        "description": "The energy used by your build to activate fragments.",
+        "hash": 2223994109
+    },
+    "237763788": {
+        "name": "Ghost Energy Capacity",
+        "icon": "/common/destiny2_content/icons/435daeef2fc277af6476f2ffb9b18bcb.png",
+        "description": "This Ghost can accept any Ghost mods.",
+        "hash": 237763788
+    },
+    "3779394102": {
+        "name": "Arc Cost",
+        "icon": "/common/destiny2_content/icons/d85b5b06fa2f6ea6838c2f2523715e8a.png",
+        "description": "Arc Armor Mod",
+        "hash": 3779394102
+    },
+    "3344745325": {
+        "name": "Solar Cost",
+        "icon": "/common/destiny2_content/icons/68bc48859bfdcbf9aba4ad03e77685a7.png",
+        "description": "Solar Armor Mod",
+        "hash": 3344745325
+    },
+    "2399985800": {
+        "name": "Void Cost",
+        "icon": "/common/destiny2_content/icons/a5432d320a789d5aad6f5b97a9453740.png",
+        "description": "Void Armor Mod",
+        "hash": 2399985800
+    },
+    "998798867": {
+        "name": "Stasis Cost",
+        "icon": "/common/destiny2_content/icons/829bceb514176cdf4cea28fbbfa74b40.png",
+        "description": "Stasis Armor Mod",
+        "hash": 998798867
+    },
+    "3578062600": {
+        "name": "Any Energy Type Cost",
+        "icon": "/common/destiny2_content/icons/435daeef2fc277af6476f2ffb9b18bcb.png",
+        "description": "Any Energy Type",
+        "hash": 3578062600
+    },
+    "119204074": {
+        "name": "Fragment Cost",
+        "icon": "/common/destiny2_content/icons/435daeef2fc277af6476f2ffb9b18bcb.png",
+        "description": "The energy used by your build to activate fragments.",
+        "hash": 119204074
+    },
+    "514071887": {
+        "name": "Mod Cost",
+        "icon": "/common/destiny2_content/icons/435daeef2fc277af6476f2ffb9b18bcb.png",
+        "description": "This Ghost can accept any Ghost mods.",
+        "hash": 514071887
+    },
+    "3289069874": {
+        "name": "Power Bonus",
+        "icon": null,
+        "description": "The Seasonal Artifact increases your Power, increasing the damage your abilities deal against higher-level combatants.",
+        "hash": 3289069874
+    },
+    "2755327046": {
+        "name": "",
+        "icon": null,
+        "description": "",
+        "hash": 2755327046
+    }
+}

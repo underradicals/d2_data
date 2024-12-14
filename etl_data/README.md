@@ -7,8 +7,8 @@
 - [x] [Extract English JsonWorldComponentContentPaths Dictionary](#extract-english-jsonworldcomponentcontentpaths-dictionary)
     - [x] Download All Json Files (Later this will be only the files we will need)
 - [ ] [Factor Available Data](#factor-available-data)
-    - [x] [Damage Type Definitions](#damage-type-definitions) (Persist Globally Image Urls, filepaths)
-    - [ ] Lore Definitions
+    - [x] [Damage Type Definitions](#definitions) (Persist Globally Image Urls, filepaths)
+    - [x] Lore Definitions
     - [ ] Stat Definitions
     - [ ] PlugSet Definitions
     - [ ] Socket Category Definitions
@@ -72,13 +72,13 @@
 
 ## Factor Available Data
 
-### `Damage Type Definitions`
+### `Definitions`
 
-- [ ] Read DamageTypeDefinition from disk
-- [ ] Transform into dictionary
-- [ ] Iterate over dictionary:
-    - [ ] Destructure into `key, value`
-    - [ ] Apply each set of transformations to each `value`
-- [ ] For each value:
-    - [ ] Append icon url to a global list formatted like so: `f'({value['hash']},"{value['icon']}", "DAMAGE_TYPE"),\n'`
-    - [ ] Append final shape of transformation to a list as well
+- [x] Read DamageTypeDefinition from disk
+- [x] Transform into dictionary
+- [x] Iterate over dictionary:
+    - [x] Destructure into `key, value`
+    - [x] Apply each set of transformations to each `value`
+- [x] For each value:
+    - [x] Append icon url to a global list formatted like so: `f'({value['hash']},"{value['icon']}", "DAMAGE_TYPE"),\n'`
+    - [x] Append final shape of transformation to a list as well
