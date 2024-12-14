@@ -18,6 +18,8 @@ POSTGRES = SQL / "postgres"
 MANIFEST_JSON = ROOT / "manifest.json"
 SETTINGS_JSON = ROOT / "settings.json"
 TABLES_SQLITE = SQLITE / "tables.sql"
+WORLD_CONTENT_ZIP = ROOT / "world_content.zip"
+WORLD_CONTENT_DB = ROOT / "world_content.db"
 
 
 def create_dir(path: Path):

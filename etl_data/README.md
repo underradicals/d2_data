@@ -9,7 +9,7 @@
 - [ ] [Factor Available Data](#factor-available-data)
     - [x] [Damage Type Definitions](#definitions) (Persist Globally Image Urls, filepaths)
     - [x] Lore Definitions
-    - [ ] Stat Definitions
+    - [x] Stat Definitions
     - [ ] PlugSet Definitions
     - [ ] Socket Category Definitions
     - [ ] Collectible Definitions
@@ -40,7 +40,7 @@
     - [x] If NO: Then do nothing, the file does not need to be updated
     - [x] Format Json Output
 
-### `Extract English MobileJsonContentPaths Url`
+### `Extract English MobileJsonContentPaths Url (Database)`
 
 - [ ] Read `manifest.json` from disk
 - [ ] Transform string to dictionary

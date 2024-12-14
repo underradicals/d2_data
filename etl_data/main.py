@@ -9,6 +9,7 @@ from features import (
     handle_data_definitions,
     handle_lore_definitions,
     handle_stat_definitions,
+    get_world_content_db,
 )
 from store import file_store, sql_image_store
 
@@ -38,15 +39,17 @@ def insert_image_urls():
 def main():
     from d2_data_paths import create_dirs
 
-    env = "development"
+    env = "production"
     create_dirs()
     create_tables(connection)
     if env == "production":
         manifest = get_manifest()
+        get_world_content_db(manifest)
         get_jwccp_files(manifest)
 
         handle_data_definitions()
         handle_lore_definitions()
+        handle_stat_definitions()
         write_all_files()
         insert_image_urls()
     else:
