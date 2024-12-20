@@ -1,0 +1,8 @@
+﻿.venv/
+.idea/
+.vscode/
+
+*.db
+
+manifest.json
+settings.json
